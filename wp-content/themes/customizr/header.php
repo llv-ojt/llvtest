@@ -36,7 +36,7 @@
             ?>
         </header>
         <div class="header-background-plate">
-            
+
         </div>
 
         <?php

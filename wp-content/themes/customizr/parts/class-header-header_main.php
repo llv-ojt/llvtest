@@ -65,6 +65,7 @@ class TC_header_main {
             <!-- Custom styles -->
             <link href="<?php echo TC_BASE_URL ?>inc/custom_styles/styles.css" rel="stylesheet" type="text/css" />
             <link href="<?php echo TC_BASE_URL ?>inc/custom_styles/header.css" rel="stylesheet" type="text/css" />
+            <link href="<?php echo TC_BASE_URL ?>inc/custom_styles/footer.css" rel="stylesheet" type="text/css" />
             
         </head>
         <?php
