@@ -47,7 +47,7 @@ div.navbar-inner {
 /* The header background plate
 */
 div.header-background-plate {
-    background: url(../../images/headerplate.jpg) no-repeat scroll top center / 100%;
+    background: url(../../images/headerplate.jpg) no-repeat scroll top center / cover;
     width: 100%;
     min-height: 400px;
     max-height: 500px;
