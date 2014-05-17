@@ -3,14 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
+//is770209759@qq.com
 .s_menu:hover{
     color: cyan;
 }
+.s_menu s_menu ul{margin:0 30px; text-decoration: none;}
+.s_menu ul li{font-size: 20px; padding: 5px;}
 
-#footer {
-    background-color: black;
-}
 footer#footer {
     background-color: black;
     border-top: none;
@@ -18,4 +17,5 @@ footer#footer {
 
 footer#footer .colophon{
     background-color: black;
+    height: 300px;
 }
