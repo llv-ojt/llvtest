@@ -1,0 +1,52 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 05 17, 14, 12:49:41 AM
+    Author     : OJT
+*/
+
+
+body {
+    background-color: #FFF;
+}
+
+
+
+div.navbar:nth-child(1) > div:nth-child(1) {
+    margin: 0px;
+}
+div.navbar:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
+    
+}
+div.navbar:nth-child(1) {
+    margin: 0px;
+}
+
+/* Navigation menus */
+.navbar .nav > li {
+    background-color: transparent;
+}
+.navbar .nav > li:hover {
+    background-color: #ff7f00;
+    box-shadow: none;
+}
+.navbar .nav > li:hover > a {
+    color: #fff;
+}
+.navbar .nav > li > a {
+    color: #fff;
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    text-shadow: none;
+}
+
+/* Heading text */ 
+.navbar-wrapper .navbar h2 {
+    color: #fff;
+    font-style: normal;
+}
