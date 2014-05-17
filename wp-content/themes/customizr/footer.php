@@ -16,6 +16,8 @@ do_action( '__before_footer' );
                         <span style="font-weight: bold; font-size: 20px;">&nbsp; Like Lalaguna</span>
                         <br /><br /><br />
                         <div style="padding-top: 5px;"><img src="wp-content/themes/customizr/images/Twitter.png" width="90"><span style="font-weight: bold; font-size: 20px;">&nbsp; Follow @lalagunavillas</span></div>                            
+                        <br /><br />
+                        <div style="padding-top: 5px;"><img src="wp-content/themes/customizr/images/TripAdvisor-logo.png" width="120"></div>                            
                 </div>
                 <div><img src="wp-content/themes/customizr/images/Email icon.png" width="90">
                         <span style="font-weight: bold; font-size: 20px;">&nbsp; info@lalagunavillas.com.ph</span>
