@@ -236,7 +236,6 @@ class TC___ {
     }
 
 
-
     /**
     * Checks if we use a child theme. Uses a deprecated WP functions (get_theme_data) for versions <3.4
     * @return boolean
@@ -260,6 +259,5 @@ class TC___ {
     }
 
 }//end of class
-
 //Creates a new instance
 new TC___;

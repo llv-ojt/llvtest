@@ -5,10 +5,11 @@
  */
 //is770209759@qq.com
 .s_menu:hover{
-    color: cyan;
+    color: cyan;   
 }
-.s_menu s_menu ul{margin:0 30px; text-decoration: none;}
-.s_menu ul li{font-size: 20px; padding: 5px;}
+.s_menu {height: auto; width:30%; margin: 10px 30px;}
+.s_menu s_menu ul{text-decoration: none;}
+.s_menu ul li{font-size: 20px; margin-bottom: 10px;}
 
 footer#footer {
     background-color: black;
@@ -17,5 +18,15 @@ footer#footer {
 
 footer#footer .colophon{
     background-color: black;
-    height: 300px;
-}
+    /*max-height: 280px;*/
+} 
+#menu-llv-default-navigation-2{width: auto; padding:5px;}
+#menu-llv-default-navigation-2 > ul{list-style: none;}
+#menu-llv-default-navigation-2 > li{text-align: center; margin-bottom: 15px; padding: 5px; color:black;}
+#menu-llv-default-navigation-2 > li  a{text-decoration: none; font-size: 20px;font-weight: bold;}
+#menu-llv-default-navigation-2 > li:hover{background-color: #FFF;}
+#menu-llv-default-navigation-2 > li:hover a{color: black;}
+
+.footTable{display: table; width: 100%; vertical-align: top;} .footTable > div{display: table-cell; padding: 5px;}
+.footnavs{width: 20%; vertical-align: middle;}
+.socialform{padding: 5px;}
