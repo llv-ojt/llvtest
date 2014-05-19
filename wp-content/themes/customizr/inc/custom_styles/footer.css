@@ -1,28 +1,24 @@
-/* 
+﻿/* 
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-//is770209759@qq.com
-.s_menu:hover{
-    color: cyan;   
-}
-.s_menu {height: auto; width:30%; margin: 10px 30px;}
+.s_menu {height: auto; width:20%; margin: 10px 30px;}
 .s_menu s_menu ul{text-decoration: none;}
 .s_menu ul li{font-size: 20px; margin-bottom: 10px;}
 
-footer#footer {
-    background-color: black;
-    border-top: none;
-}
-
 footer#footer .colophon{
     background-color: black;
+    background-attachment: fixed;
+    background-image: url(http://localhost/llvtest/wp-content/themes/customizr/images/DSCF7026.jpg);
     /*max-height: 280px;*/
 } 
-#menu-llv-default-navigation-2{width: 15%; padding:5px;}
-#menu-llv-default-navigation-2 > ul{list-style: none;}
+
+#menu-llv-default-navigation-2{width: auto; padding:5px; background-color: black;}
+.footnavs > div:nth-child(1) .menu {list-style-type: none; display: inline-block;}
 #menu-llv-default-navigation-2 > li{text-align: center; margin-bottom: 15px; padding: 5px; color:black;}
 #menu-llv-default-navigation-2 > li  a{text-decoration: none; font-size: 20px;font-weight: bold;}
-#menu-llv-default-navigation-2 > li:hover{background-color: #FFF;}
+#menu-llv-default-navigation-2 > li:hover{background-color: white;}
 #menu-llv-default-navigation-2 > li:hover a{color: black;}
+
+div.credits:nth-child(1){background-color: black; text-align: center; margin: 0; padding: 0;}
