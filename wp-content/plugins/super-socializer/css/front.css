@@ -1,0 +1,359 @@
+@charset "utf-8";
+/* CSS Document */
+#the_champ_error{
+	color: red;
+	margin: 7px 0;
+}
+.the_champ_login_container{
+	margin: 2px 0;
+}
+.the_champ_login_container img{
+	cursor: pointer;
+	margin: 2px;
+	display: none;
+	float: left;
+	border: none
+}
+#the_champ_loading_image{
+	display: block !important;
+	float: none
+}
+.the_champ_sharing_container img{
+	cursor: pointer;
+	margin: 2px;
+	border: none
+}
+.the_champ_error{
+	background-color: #FFFFE0;
+	border:1px solid #E6DB55;
+	padding:5px;
+	margin: 10px
+}
+#the_champ_sharing_more_providers{
+	position: fixed;
+	top: 150px;
+	left: 48%;
+	background: none repeat scroll 0 0 #FAFAFA;
+	width: 650px;
+	margin-left: -300px;
+	z-index: 10000000;
+}
+#the_champ_popup_bg{
+	background: url("../images/transparent_bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+	bottom: 0;
+    display: block;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+	z-index: 10000
+}
+#the_champ_sharing_more_providers .title{
+	background: none repeat scroll 0 0 #58B8F8 !important;
+    border-bottom: 1px solid #D7D7D7 !important;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: inherit;
+    line-height: 34px !important;
+    padding: 0 !important;
+    text-align: center;
+    text-transform: none;
+	margin: 0 !important;
+	text-shadow: none !important
+}
+#the_champ_sharing_more_providers *{
+	font-family: Arial, Helvetica, sans-serif;
+}
+#the_champ_sharing_more_providers #the_champ_sharing_more_content{
+	background: none repeat scroll 0 0 #FAFAFA;
+    border-radius: 4px;
+    color: #555555;
+    height: 100%;
+    width: 100%;
+}
+#the_champ_sharing_more_providers .filter{
+	padding: 10px 0 0;
+    position: relative;
+}
+#the_champ_sharing_more_providers .all-services{
+	clear: both;
+    height: 250px;
+    overflow: auto;
+}
+#the_champ_sharing_more_content .all-services ul{
+	margin: 10px;
+    overflow: hidden;
+	list-style: none outside none;
+	padding-left: 0 !important
+}
+#the_champ_sharing_more_content .all-services ul li{
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    float: left;
+    width: 33.3333%;
+}
+#the_champ_sharing_more_providers .close-button.separated {
+	background: transparent !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+#the_champ_sharing_more_providers .close-button{
+	color: #555555 !important;
+    cursor: pointer !important;
+    font-size: 29px !important;
+    line-height: 29px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: absolute;
+    right: -13px;
+    top: -11px
+}
+/*
+#the_champ_sharing_more_providers .icon-cross-alt:before {
+    content: "x";
+}*/
+#the_champ_sharing_more_providers .filter input.search {
+    display: block;
+    float: none;
+    font-family: "open sans","helvetica neue",helvetica,arial,sans-serif;
+    font-weight: 300;
+    height: auto;
+    line-height: inherit;
+    margin: 0 auto;
+    padding: 5px 8px 5px 10px;
+    width: 95%;
+	border-color: #cccccc;
+	color: #000;
+	background: none repeat scroll 0 0 #FFFFFF !important;
+	font-size: 16px !important;
+	text-align: left !important
+	
+}
+#the_champ_sharing_more_providers .footer-panel {
+    background: none repeat scroll 0 0 #58B8F8;
+    border-top: 1px solid #D7D7D7;
+    padding: 4px 0;
+    width: 100%;
+	color: #fff
+}
+#the_champ_sharing_more_providers .footer-panel p {
+    color: #000;
+    font-family: 'helvetica neue',arial,helvetica,sans-serif;
+    font-size: 12px;
+    line-height: 1.2;
+    margin: 0 !important;
+    padding: 0 6px;
+}
+#the_champ_sharing_more_providers .footer-panel a {
+    color: #fff;
+    text-decoration: none;
+	font-weight: bold
+}
+#the_champ_sharing_more_providers .all-services ul li a {
+    border-radius: 3px;
+    color: #666666 !important;
+    display: block;
+    font-size: 14px;
+    height: auto;
+    line-height: 20px;
+    overflow: hidden;
+    padding: 8px;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+	border: none !important;
+}
+.the_champ_share_count{
+	display: block;
+	visibility: hidden;
+	background-color: #58B8F8 !important;
+	width: 5px;
+	height: auto;
+	text-align: center;
+	min-width: 8px !important;
+	padding: 1px 4px !important;
+	color: white !important;
+	font-family: 'Open Sans', arial, sans-serif !important;
+	font-size: 10px !important;
+	font-weight: 600 !important;
+	-webkit-border-radius: 15px !important;
+	border-radius: 15px !important;
+	-webkit-box-shadow: 0 2px 2px rgba(0,0,0,0.4);
+	box-shadow: 0 2px 2px rgba(0,0,0,0.4);
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.2);
+	line-height: 14px !important;
+	border: 2px solid white !important;
+	z-index: 1;
+	margin: 2px auto;
+	webkit-box-sizing: content-box !important;
+	-moz-box-sizing: content-box !important;
+	box-sizing: content-box !important;
+}
+#the_champ_comment_toggle{
+	margin-bottom: 10px
+}
+/* Sharing services background icons */
+.the_champ_sharing_service{ display: block; background: url('../images/sharing/more_sprite.png') no-repeat; margin-right: 3px; float:left }
+.the_champ_sharing_service_amazon { background-position: -0px -0px; width: 20px; height: 20px; }
+.the_champ_sharing_service_aol { background-position: -20px -0px; width: 20px; height: 20px; }
+.the_champ_sharing_service_arto { background-position: -40px -0px; width: 20px; height: 20px; }
+.the_champ_sharing_service_bebo { background-position: -60px -0px; width: 20px; height: 20px; }
+.the_champ_sharing_service_bitly { background-position: -80px -0px; width: 20px; height: 20px; }
+.the_champ_sharing_service_blogger { background-position: -100px -0px; width: 20px; height: 20px; }
+.the_champ_sharing_service_box { background-position: -120px -0px; width: 20px; height: 20px; }
+.the_champ_sharing_service_boxee { background-position: -0px -20px; width: 20px; height: 20px; }
+.the_champ_sharing_service_buffer { background-position: -20px -20px; width: 20px; height: 20px; }
+.the_champ_sharing_service_buzzster { background-position: -40px -20px; width: 20px; height: 20px; }
+.the_champ_sharing_service_delicious { background-position: -60px -20px; width: 20px; height: 20px; }
+.the_champ_sharing_service_digg { background-position: -80px -20px; width: 20px; height: 20px; }
+.the_champ_sharing_service_diigo { background-position: -100px -20px; width: 20px; height: 20px; }
+.the_champ_sharing_service_diigolet { background-position: -120px -20px; width: 20px; height: 20px; }
+.the_champ_sharing_service_email { background-position: -0px -40px; width: 20px; height: 20px; }
+.the_champ_sharing_service_evernote { background-position: -20px -40px; width: 20px; height: 20px; }
+.the_champ_sharing_service_facebook { background-position: -40px -40px; width: 20px; height: 20px; }
+.the_champ_sharing_service_fancy { background-position: -60px -40px; width: 20px; height: 20px; }
+.the_champ_sharing_service_fark { background-position: -80px -40px; width: 20px; height: 20px; }
+.the_champ_sharing_service_flipboard { background-position: -100px -40px; width: 20px; height: 20px; }
+.the_champ_sharing_service_google { background-position: -120px -40px; width: 20px; height: 20px; }
+.the_champ_sharing_service_google-apps { background-position: -0px -60px; width: 20px; height: 20px; }
+.the_champ_sharing_service_google-bookmark { background-position: -20px -60px; width: 20px; height: 20px; }
+.the_champ_sharing_service_google-mail { background-position: -40px -60px; width: 20px; height: 20px; }
+.the_champ_sharing_service_heart { background-position: -60px -60px; width: 20px; height: 20px; }
+.the_champ_sharing_service_hootsuite { background-position: -80px -60px; width: 20px; height: 20px; }
+.the_champ_sharing_service_hotmail { background-position: -100px -60px; width: 20px; height: 20px; }
+.the_champ_sharing_service_identica { background-position: -120px -60px; width: 20px; height: 20px; }
+.the_champ_sharing_service_inbound { background-position: -0px -80px; width: 20px; height: 20px; }
+.the_champ_sharing_service_instapaper { background-position: -20px -80px; width: 20px; height: 20px; }
+.the_champ_sharing_service_izeby { background-position: -40px -80px; width: 20px; height: 20px; }
+.the_champ_sharing_service_kaboodle { background-position: -60px -80px; width: 20px; height: 20px; }
+.the_champ_sharing_service_linkedin { background-position: -80px -80px; width: 20px; height: 20px; }
+.the_champ_sharing_service_mister-wong { background-position: -100px -80px; width: 20px; height: 20px; }
+.the_champ_sharing_service_msdn { background-position: -120px -80px; width: 20px; height: 20px; }
+.the_champ_sharing_service_ning { background-position: -0px -100px; width: 20px; height: 20px; }
+.the_champ_sharing_service_orkut { background-position: -20px -100px; width: 20px; height: 20px; }
+.the_champ_sharing_service_pinboard { background-position: -40px -100px; width: 20px; height: 20px; }
+.the_champ_sharing_service_pinterest { background-position: -60px -100px; width: 20px; height: 20px; }
+.the_champ_sharing_service_plurk { background-position: -80px -100px; width: 20px; height: 20px; }
+.the_champ_sharing_service_pocket { background-position: -100px -100px; width: 20px; height: 20px; }
+.the_champ_sharing_service_print-friendly { background-position: -120px -100px; width: 20px; height: 20px; }
+.the_champ_sharing_service_quora { background-position: -0px -120px; width: 20px; height: 20px; }
+.the_champ_sharing_service_read-later { background-position: -20px -120px; width: 20px; height: 20px; }
+.the_champ_sharing_service_reddit { background-position: -40px -120px; width: 20px; height: 20px; }
+.the_champ_sharing_service_soup { background-position: -60px -120px; width: 20px; height: 20px; }
+.the_champ_sharing_service_springpad { background-position: -80px -120px; width: 20px; height: 20px; }
+.the_champ_sharing_service_stumbleupon { background-position: -100px -120px; width: 20px; height: 20px; }
+.the_champ_sharing_service_stumpedia { background-position: -120px -120px; width: 20px; height: 20px; }
+.the_champ_sharing_service_techmeme { background-position: -0px -140px; width: 20px; height: 20px; }
+.the_champ_sharing_service_tinyurl { background-position: -20px -140px; width: 20px; height: 20px; }
+.the_champ_sharing_service_tumblr { background-position: -40px -140px; width: 20px; height: 20px; }
+.the_champ_sharing_service_twitter { background-position: -60px -140px; width: 20px; height: 20px; }
+.the_champ_sharing_service_typepad { background-position: -80px -140px; width: 20px; height: 20px; }
+.the_champ_sharing_service_viadeo { background-position: -100px -140px; width: 20px; height: 20px; }
+.the_champ_sharing_service_vkontakte { background-position: -120px -140px; width: 20px; height: 20px; }
+.the_champ_sharing_service_wanelo { background-position: -0px -160px; width: 20px; height: 20px; }
+.the_champ_sharing_service_windows-live { background-position: -20px -160px; width: 20px; height: 20px; }
+.the_champ_sharing_service_wordpress { background-position: -40px -160px; width: 20px; height: 20px; }
+.the_champ_sharing_service_yahoo { background-position: -60px -160px; width: 20px; height: 20px; }
+.the_champ_sharing_service_yammer { background-position: -80px -160px; width: 20px; height: 20px; }
+.the_champ_sharing_service_yc-hacker { background-position: -100px -160px; width: 20px; height: 20px; }
+
+ul.the_champ_login_ul{
+	list-style: none outside none !important;
+	margin: 3px 0 !important;
+	padding-left: 0 !important
+}
+ul.the_champ_login_ul li{
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+	float: left;
+	padding: 0 !important;
+	margin: 0 !important;
+	border: 0 !important;
+	width: auto !important;
+	clear: none !important;
+	list-style: none !important;
+}
+.theChampLoginButton{
+	display: block;
+	background: url('../images/login/login.png') no-repeat;
+	margin: 2px;
+	float: left;
+	cursor: pointer
+}
+.theChampFacebookButton {
+	background-position: -0px -0px;
+	width: 32px;
+	height: 32px;
+	display: none;
+}
+.theChampGoogleButton {
+	background-position: -32px -0px;
+	width: 32px;
+	height: 32px;
+	display: none
+}
+.theChampInstagramButton {
+	background-position: -0px -32px;
+	width: 32px;
+	height: 32px;
+	display: block !important
+}
+.theChampLinkedinButton {
+	background-position: -32px -32px;
+	width: 32px;
+	height: 32px;
+	display: none
+}
+.theChampTwitterButton {
+	background-position: -0px -64px;
+	width: 32px;
+	height: 32px;
+	display: block !important
+}
+.theChampVkontakteButton {
+	background-position: -32px -64px;
+	width: 32px;
+	height: 32px;
+	display: none
+}
+ul.the_champ_sharing_ul{
+	list-style: none outside none !important;
+	margin: 1px 0 !important;
+	padding-left: 0 !important
+}
+#the_champ_sharing_popup_close img{
+	background: transparent !important;
+	border: none !important;
+	outline: none !important;
+	box-shadow: none !important;
+}
+ul.the_champ_sharing_ul li{
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+	float: left !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	list-style: none !important;
+	border: none !important
+}
+.theChampSharingButton{
+	display: block;
+	background: url('../images/sharing/sharing.png') no-repeat;
+	margin: 2px;
+	float: left;
+	cursor: pointer
+}
+.theChampSharingDeliciousButton { background-position: -0px -0px; width: 32px; height: 32px; }
+.theChampSharingDiggButton { background-position: -32px -0px; width: 32px; height: 32px; }
+.theChampSharingEmailButton { background-position: -64px -0px; width: 32px; height: 32px; }
+.theChampSharingFacebookButton { background-position: -96px -0px; width: 32px; height: 32px; }
+.theChampSharingFloatitButton { background-position: -0px -32px; width: 32px; height: 32px; }
+.theChampSharingGoogleButton { background-position: -32px -32px; width: 32px; height: 32px; }
+.theChampSharingLinkedinButton { background-position: -64px -32px; width: 32px; height: 32px; }
+.theChampSharingMoreButton { background-position: -96px -32px; width: 32px; height: 32px; }
+.theChampSharingPinterestButton { background-position: -0px -64px; width: 32px; height: 32px; }
+.theChampSharingPrintButton { background-position: -32px -64px; width: 32px; height: 32px; }
+.theChampSharingRedditButton { background-position: -64px -64px; width: 32px; height: 32px; }
+.theChampSharingStumbleuponButton { background-position: -96px -64px; width: 32px; height: 32px; }
+.theChampSharingTumblrButton { background-position: -0px -96px; width: 32px; height: 32px; }
+.theChampSharingTwitterButton { background-position: -32px -96px; width: 32px; height: 32px; }
+.theChampSharingVkontakteButton { background-position: -64px -96px; width: 32px; height: 32px; }
+.theChampSharingYahooButton { background-position: -96px -96px; width: 32px; height: 32px; }

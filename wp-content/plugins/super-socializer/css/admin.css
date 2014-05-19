@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+.clr{
+	clear:both;
+}
+h2.nav-tab-wrapper > ul > li{
+	float:left;
+	margin-left:5px
+}
+li.ui-tabs-active{
+	border-bottom-color: #f1f1f1;
+	border-bottom-style: solid;
+	border-bottom-width: 5px;
+}
+li.ui-tabs-active a.nav-tab{
+	background: transparent
+}
+.submit a {
+	margin-left: 20px;
+}
+div.menu_containt_div > .stuffbox{
+	width:763px
+}
+div.inside td, div.inside th{
+	padding: 7px
+}
+div.stuffbox h3{
+	border-bottom: 1px solid #eee
+}
+.theChampSharingProviderContainer{
+	width: 165px;
+	float: left;
+}
+.the_champ_help_content{
+	display: none;
+	font-size: 12px;
+	color: #797979;
+	line-height: 15px;
+	font-style: italic;
+}
+.the_champ_help_content img{
+	box-shadow: 4px 4px 4px 4px #888888;
+	margin: 8px 0;
+}
+.the_champ_help_bubble{
+	cursor: pointer;
+	vertical-align: middle
+}
+#the_champ_ss_rearrange li{
+	cursor: move;
+	float: left;
+	display: block;
+	margin: 0 2px
+}
+#the_champ_ss_rearrange{
+	margin: 0
+}
+.the_champ_left_column{
+	float:left;
+	width: 56% !important
+}
+.the_champ_right_column{
+	float:left;
+	width: 37%;
+	margin-left: 10px
+}
+.the_champ_right_column td{
+	display: block;
+	width:120px !important;
+	margin: 0
+}
+.the_champ_clear{
+	clear: both
+}
+.the_champ_error{
+	background-color: #FFFFE0;
+	border:1px solid #E6DB55;
+	padding:5px;
+	margin: 10px
+}
+input[type=text]{
+	width: 351px
+}
+.theChampLoginButton{
+	background: url('../images/login/login.png') no-repeat;
+	cursor: pointer
+}
+.theChampFacebookButton {
+	background-position: -0px -0px;
+	width: 32px;
+	height: 32px;
+}
+.theChampWordpressButton {
+	background-position: -0px -96px;
+	width: 32px;
+	height: 32px;
+}
+.theChampLinkedinButton {
+	background-position: -32px -32px;
+	width: 32px;
+	height: 32px;
+}
+.theChampTwitterButton {
+	background-position: -0px -64px;
+	width: 32px;
+	height: 32px;
+}
+.theChampSharingButton{
+	display: block;
+	background: url('../images/sharing/sharing.png') no-repeat;
+}
+.theChampSharingdeliciousButton { background-position: -0px -0px; width: 32px; height: 32px; }
+.theChampSharingdiggButton { background-position: -32px -0px; width: 32px; height: 32px; }
+.theChampSharingemailButton { background-position: -64px -0px; width: 32px; height: 32px; }
+.theChampSharingfacebookButton { background-position: -96px -0px; width: 32px; height: 32px; }
+.theChampSharingfloatitButton { background-position: -0px -32px; width: 32px; height: 32px; }
+.theChampSharinggoogleButton { background-position: -32px -32px; width: 32px; height: 32px; }
+.theChampSharinglinkedinButton { background-position: -64px -32px; width: 32px; height: 32px; }
+.theChampSharingpinterestButton { background-position: -0px -64px; width: 32px; height: 32px; }
+.theChampSharingprintButton { background-position: -32px -64px; width: 32px; height: 32px; }
+.theChampSharingredditButton { background-position: -64px -64px; width: 32px; height: 32px; }
+.theChampSharingstumbleuponButton { background-position: -96px -64px; width: 32px; height: 32px; }
+.theChampSharingtumblrButton { background-position: -0px -96px; width: 32px; height: 32px; }
+.theChampSharingtwitterButton { background-position: -32px -96px; width: 32px; height: 32px; }
+.theChampSharingvkontakteButton { background-position: -64px -96px; width: 32px; height: 32px; }
+.theChampSharingyahooButton { background-position: -96px -96px; width: 32px; height: 32px; }

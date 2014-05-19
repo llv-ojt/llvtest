@@ -20,13 +20,9 @@ footer#footer .colophon{
     background-color: black;
     /*max-height: 280px;*/
 } 
-#menu-llv-default-navigation-2{width: auto; padding:5px;}
+#menu-llv-default-navigation-2{width: 15%; padding:5px;}
 #menu-llv-default-navigation-2 > ul{list-style: none;}
 #menu-llv-default-navigation-2 > li{text-align: center; margin-bottom: 15px; padding: 5px; color:black;}
 #menu-llv-default-navigation-2 > li  a{text-decoration: none; font-size: 20px;font-weight: bold;}
 #menu-llv-default-navigation-2 > li:hover{background-color: #FFF;}
 #menu-llv-default-navigation-2 > li:hover a{color: black;}
-
-.footTable{display: table; width: 100%; vertical-align: top;} .footTable > div{display: table-cell; padding: 5px;}
-.footnavs{width: 20%; vertical-align: middle;}
-.socialform{padding: 5px;}
